@@ -77,7 +77,7 @@ describe('test functions', () => {
     jest.clearAllMocks();
   });
 
-  it('should return all games by mock getAllGames function', async () => {
+  it('should return all games by mock getAllGames function', () => {
     const res = getAllGames();
     console.log(res);
     expect(res).toEqual([
